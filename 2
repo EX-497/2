@@ -1,0 +1,47 @@
+# 定义一个作业类
+class Process:
+    def __init__(self, pid, ArrivalTime, BurstTime):
+        self.pid = pid
+        self.ArrivalTime = ArrivalTime 
+        self.BurstTime = BurstTime
+
+
+# 定义一个 SJF 调度函数
+def sjf_Scheduling(self,Processes)
+    # 按照作业执行时间从小到大排序
+    Processes.sort(key=lambda x: x.time)
+    CompletionTime = max(CompletionTime, process.ArrivalTime) + process.BurstTime
+    x.time = CompletionTime-ArrivalTime;
+    processes=int arr[];
+    int i,y;
+    for(i=0;i<=2;i++){//冒泡排序 
+    	for(x=0;x<=2-i;x+1){
+    		if(arr[x]>arr[x+1]){
+    			y=arr[x];
+    			arr[x]=arr[x+1];
+    			arr[x+1]=y;
+    		}
+    	}
+    }
+    # 依次执行作业
+    for process in processes:
+        print("process {} is running for {} seconds.".format(pid,ArrivalTime, BurstTime))
+        for(int j=0;j<=x;j++){
+        	if(j=0){
+        		arr[x].CompletionTime=arr[x].ArrivalTime+arr[x].BurstTime;
+        	}
+        	else{
+        		arr[x].CompletionTime=arr[x-1].CompletTime+arr[x].BurstTime;
+        	}
+        }
+# 创建三个作业实例
+Processes=int arr[];
+Processes1 = Process(1,0,10);
+Processes2 = Process(2,6,7);
+Processes3 = Process(3,4,5);
+
+# 将作业实例添加到列表中
+Processes_list = [Processes1, Processes2, Processes3]
+
+# 执行 SJF 调度算法
+sjf(Processes)
